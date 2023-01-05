@@ -49,6 +49,17 @@ svg {
 }
 
 /*SITE NAV*/
+
+.header {
+    background-color: var(--white-color);
+    padding: 24px 0 25px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.header a {
+    text-decoration: none;
+}
+
 .flex-nav {
     display: flex;
     justify-content: space-between;
@@ -58,12 +69,6 @@ svg {
 .flex-nav-details {
     display: flex;
     align-items: center;
-}
-
-.main-information {
-    background-color: var(--white-color);
-    padding: 24px 0 25px;
-    border-bottom: 1px solid #eeeeee;
 }
 
 .nav-list a:hover,
@@ -120,6 +125,7 @@ svg {
     text-align: left;
     text-decoration: none;
     margin-right: 93px;
+    color: var(--primary-color);
 }
 
 .black-studio {
@@ -128,10 +134,6 @@ svg {
 
 .white-studio {
     color: var(--white-color);
-}
-
-.logo {
-    color: var(--primary-color);
 }
 
 .nav-list {
@@ -153,20 +155,17 @@ svg {
     flex-direction: row;
 }
 
-.contact-icon {
-    margin-right: 10px;
-    fill: currentColor;
-}
-
 .contact-list a {
     color: var(--light-grey);
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-information a {
-    text-decoration: none;
+.contact-icon {
+    margin-right: 10px;
+    fill: currentColor;
 }
+
 /*END SITE NAV*/
 
 /*FIRST SECTION*/
