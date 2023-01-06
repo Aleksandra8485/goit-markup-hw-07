@@ -283,18 +283,18 @@ svg {
     margin: 0;
 }
 
-.photo-portfolio {
+.projects__photo-portfolio {
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
 }
 
-.overlay-portfolio {
+.projects__overlay-portfolio {
     position: relative;
     overflow: hidden;
 }
 
-.overlay-description {
+.projects__overlay-description {
     position: absolute;
     top: 0;
     left: 0;
@@ -307,11 +307,11 @@ svg {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay-portfolio:hover .overlay-description {
+.projects__overlay-portfolio:hover .projects__overlay-description {
     transform: translateY(0);
 }
 
-.overlay-description p {
+.projects__overlay-description-text {
     font-weight: 400px;
     font-size: 18px;
     line-height: 1, 55;
