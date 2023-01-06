@@ -638,16 +638,25 @@ svg {
 /*---- JOIN US in FOOTER end----*/
 
 /*---NEWSLETTER in FOOTER start ---*/
-.newsletter {
+.footer-newsletter {
     margin-left: 78px;
 }
 
-.footer-newsletter {
+.footer-newsletter__title {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     margin-bottom: 20px;
     margin-top: 11px;
 }
 
-.footer-form {
+.footer-newsletter__flex {
+    display: flex;
+}
+
+.footer-newsletter--footer-form {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -664,19 +673,7 @@ svg {
     color: var(--white-color);
 }
 
-.footer-newsletter {
-    color: var(--white-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-}
-
-.newsletter-composition {
-    display: flex;
-}
-
-.footer-btn {
+.footer-newsletter--footer-btn {
     background-color: var(--primary-color);
     color: var(--white-color);
     width: 200px;
@@ -694,7 +691,7 @@ svg {
     align-items: center;
 }
 
-.newletter-icon {
+.footer-newsletter__icon {
     fill: var(--white-color);
 }
 
