@@ -756,25 +756,29 @@
 
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <button type="button" class="close-btn" data-modal-close>
+                <button type="button" class="modal__close-btn" data-modal-close>
                     &times
                 </button>
 
-                <h4 class="modal-name">
+                <h4 class="modal__name">
                     Zostaw swoje dane w formularzu poniżej
                 </h4>
 
-                <form class="contact-form" autocomplete="on">
+                <form class="modal__form" autocomplete="on">
                     <div>
-                        <label class="label-description" for="name">
+                        <label class="modal__label-description" for="name">
                             Imie
-                            <svg width="18" height="18" class="form-icon">
+                            <svg
+                                width="18"
+                                height="18"
+                                class="modal__form-icon"
+                            >
                                 <use
                                     href="./images/icons.svg#icon-person"
                                 ></use>
                             </svg>
                             <input
-                                class="form-description"
+                                class="modal__form-description"
                                 type="text"
                                 name="name"
                                 id="name"
@@ -783,13 +787,17 @@
                     </div>
 
                     <div>
-                        <label class="label-description" for="tel">
+                        <label class="modal__label-description" for="tel">
                             Telefon
-                            <svg width="18" height="18" class="form-icon">
+                            <svg
+                                width="18"
+                                height="18"
+                                class="modal__form-icon"
+                            >
                                 <use href="./images/icons.svg#icon-phone"></use>
                             </svg>
                             <input
-                                class="form-description"
+                                class="modal__form-description"
                                 type="text"
                                 name="tel"
                                 id="tel"
@@ -798,13 +806,17 @@
                     </div>
 
                     <div>
-                        <label class="label-description" for="email">
+                        <label class="modal__label-description" for="email">
                             Email
-                            <svg width="18" height="18" class="form-icon">
+                            <svg
+                                width="18"
+                                height="18"
+                                class="modal__form-icon"
+                            >
                                 <use href="./images/icons.svg#icon-email"></use>
                             </svg>
                             <input
-                                class="form-description"
+                                class="modal__form-description"
                                 type="text"
                                 name="email"
                                 id="email"
@@ -813,37 +825,43 @@
                     </div>
 
                     <div>
-                        <label class="label-description" for="comment">
+                        <label class="modal__label-description" for="comment">
                             Komentarz
                             <textarea
-                                class="form-comment"
+                                class="modal__form-comment"
                                 name="comment"
                                 placeholder="Wprowadź tekst"
                                 id="comment"
                             ></textarea>
                         </label>
                     </div>
-                    <div class="statute">
-                        <label for="statute_form" class="statute-form">
+                    <div class="modal__statute">
+                        <label for="statute_form" class="modal__statute-form">
                             <input
-                                class="checkbox"
+                                class="modal__statute-form-checkbox"
                                 type="checkbox"
                                 name="statute"
                                 id="statute_form"
                             />
-                            <svg width="16" height="15" class="form-icon-check">
+                            <svg
+                                width="16"
+                                height="15"
+                                class="modal__statute-form-checkbox-icon"
+                            >
                                 <use href="./images/icons.svg#icon-check"></use>
                             </svg>
-                            <span class="statute-info">
+                            <span class="modal__statute-info">
                                 Oświadczam iż akceptuję
-                                <a class="statute-link" href="#"> Regulamin </a>
+                                <a class="modal__statute-link" href="#">
+                                    Regulamin
+                                </a>
                                 i
-                                <a class="statute-link" href="#"
+                                <a class="modal__statute-link" href="#"
                                     >Politykę Prywatności.</a
                                 ></span
                             >
                         </label>
-                        <button class="btn-statute" type="submit">
+                        <button class="modal__btn-statute" type="submit">
                             Wyślij
                         </button>
                     </div>

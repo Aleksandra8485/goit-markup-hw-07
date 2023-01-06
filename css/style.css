@@ -726,7 +726,7 @@ svg {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn {
+.modal__close-btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -754,7 +754,7 @@ svg {
     transform: translateY(-100%);
 }
 
-.modal-name {
+.modal__name {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.17;
@@ -762,14 +762,14 @@ svg {
     margin: 40px 40px 12px 40px;
 }
 
-.contact-form {
+.modal__form {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin: 0 40px;
 }
 
-.label-description {
+.modal__label-description {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -781,7 +781,7 @@ svg {
     gap: 4px;
 }
 
-.form-comment {
+.modal__form-comment {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -795,7 +795,7 @@ svg {
     outline: none;
 }
 
-.form-icon {
+.modal__form-icon {
     fill: var(--dark-grey);
     position: absolute;
     bottom: 11px;
@@ -803,7 +803,7 @@ svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-description {
+.modal__form-description {
     width: 448px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -813,35 +813,66 @@ svg {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.label-description:focus-within .form-description {
+.modal__label-description:focus-within .modal__form-description {
     border-color: var(--primary-color);
 }
 
-.label-description:focus-within .form-icon {
+.modal__label-description:focus-within .modal__form-icon {
     fill: var(--primary-color);
 }
 
-.label-description:focus-within .form-comment {
+.modal__label-description:focus-within .modal__form-comment {
     border-color: var(--primary-color);
 }
 
-.statute {
+.modal__statute {
     margin-top: 20px;
 }
 
-.statute-info {
+.modal__statute-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.modal__statute-form-checkbox {
+    fill: var(--white-color);
+    border: 2px solid var(--black-color);
+    border-radius: 2px;
+    width: 16px;
+    height: 15px;
+    appearance: none;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+.modal__statute-form-checkbox-icon {
+    position: absolute;
+    left: 15px;
+    bottom: 4px;
+    opacity: 0;
+    border-radius: 2px;
+}
+
+.modal__statute-form-checkbox:checked + .modal__statute-form-checkbox-icon {
+    background-color: #2196f3;
+    border-color: #2196f3;
+    opacity: 1;
+}
+
+.modal__statute-info {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
-.statute-link {
+.modal__statute-link {
     text-decoration: underline;
     color: var(--primary-color);
 }
 
-.btn-statute {
+.modal__btn-statute {
     font-weight: 700;
     font-size: 16px;
     color: var(--white-color);
@@ -859,35 +890,4 @@ svg {
     margin-left: 124px;
     margin-top: 30px;
     padding: 0;
-}
-
-.statute-form {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.checkbox {
-    fill: var(--white-color);
-    border: 2px solid var(--black-color);
-    border-radius: 2px;
-    width: 16px;
-    height: 15px;
-    appearance: none;
-    margin-left: 15px;
-    margin-right: 8px;
-}
-
-.form-icon-check {
-    position: absolute;
-    left: 15px;
-    bottom: 4px;
-    opacity: 0;
-    border-radius: 2px;
-}
-
-.checkbox:checked + .form-icon-check {
-    background-color: #2196f3;
-    border-color: #2196f3;
-    opacity: 1;
 }
