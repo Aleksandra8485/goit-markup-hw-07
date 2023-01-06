@@ -535,15 +535,20 @@ svg {
 /*-----OUR-COSTUMERS  end----- */
 
 /*FOOTER*/
-.contact {
+.footer {
     background-color: var(--navy-blue);
     padding: 60px 0;
 }
 
-.white-studio {
+.footer__flex {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.logo__white-studio {
     color: var(--white-color);
 }
-.address-list {
+.footer--address-list {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
@@ -552,7 +557,15 @@ svg {
     margin-top: 20px;
 }
 
-.address-list span {
+.footer__address-flex {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+    gap: 9px;
+}
+
+.footer__address {
     color: var(--white-color);
     font-size: 14px;
     line-height: 1.71;
@@ -560,7 +573,7 @@ svg {
     padding-top: 20px;
 }
 
-.footer-contact {
+.footer__contact {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
@@ -569,26 +582,13 @@ svg {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.underline {
+.footer__contact--underline {
     text-decoration: underline;
 }
 
-.footer-contact:hover,
-.footer-contact:focus {
+.footer__contact:hover,
+.footer__contact:focus {
     color: var(--primary-color);
-}
-
-.address-details {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    padding-left: 0;
-    gap: 9px;
-}
-
-.footer-items {
-    display: inline-flex;
-    justify-content: center;
 }
 
 .join-social-media {
