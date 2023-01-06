@@ -165,10 +165,6 @@ svg {
     color: var(--black-color);
 }
 
-.white-studio {
-    color: var(--white-color);
-}
-
 /*--------HEADER end--------*/
 
 /*----HERO-SECTION  start----*/
@@ -264,7 +260,7 @@ svg {
 
 /*--- PORTFOLIO WEBSITE end----*/
 
-/*SECOND SECTION*/
+/*---OUR ATUTS start  lorem ipsum----*/
 .second-section-list h3 {
     font-weight: 700;
     font-size: 14px;
@@ -280,6 +276,12 @@ svg {
     list-style: none;
     gap: 30px;
 }
+.second-section-list p {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--light-grey);
+    letter-spacing: 0.03em;
+}
 
 .lorem-icon {
     padding: 25px 100px;
@@ -292,24 +294,36 @@ svg {
     padding-top: 10px;
 }
 
-.flex-third-section,
-.flex-fourth-section {
+/*----OUR ATUTS   end ---*/
+
+/*---WHAT WE DO start 3 section---*/
+
+.our-work {
+    margin-top: -94px;
+}
+
+.our-work__wrapper {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 30px;
 }
 
-.third-section {
-    margin-top: -94px;
+.our-work__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--dark-grey);
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.box-photo {
+.our-work--box-photo {
     position: relative;
     overflow: hidden;
 }
 
-.overlay-box-photo {
+.our-work--overlay-box-photo {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -324,12 +338,31 @@ svg {
     text-align: center;
 }
 
-.overlay-box-photo p {
+.our-work--overlay-box-photo__title {
     padding: 27px 0;
 }
 
+/*---WHAT WE DO end 3 section  ---*/
+
+/*---OUR-TEAM start 4 section---*/
 .fourth-section {
     background-color: var(--beige);
+}
+
+.fourth-section-list {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--dark-grey);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.flex-fourth-section {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
 }
 
 .our-team {
@@ -365,6 +398,9 @@ svg {
     fill: var(--white-color);
     background-color: var(--primary-color);
 }
+
+/*---OUR-TEAM start 4 section---*/
+
 /*---PORTFOLIO PROJECTS  start*/
 
 .projects {
@@ -444,16 +480,9 @@ svg {
 }
 /* ----PORTFOLIO PROJECTS END---*/
 
-.second-section-list p {
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--light-grey);
-    letter-spacing: 0.03em;
-}
+/*----OUR-COSTUMERS  start----*/
 
-.third-section-list,
-.fourth-section-list,
-.our-costumers {
+.our-costumers__name {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -462,7 +491,7 @@ svg {
     margin-bottom: 50px;
 }
 
-.costumers {
+.our-costumers__logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -471,7 +500,7 @@ svg {
     cursor: pointer;
 }
 
-.company {
+.our-costumers__company {
     border: 1px solid var(--icon-color);
     border-radius: 4px;
     fill: var(--icon-color);
@@ -481,11 +510,13 @@ svg {
         border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.company:hover,
-.company:focus {
+.our-costumers__company:hover,
+.our-costumers__company:focus {
     fill: var(--primary-color);
     border-color: var(--primary-color);
 }
+
+/*-----OUR-COSTUMERS   end */
 
 .photo-bg {
     background-color: var(--white-color);
@@ -513,6 +544,9 @@ svg {
     padding: 60px 0;
 }
 
+.white-studio {
+    color: var(--white-color);
+}
 .address-list {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
