@@ -87,9 +87,6 @@ svg {
     letter-spacing: 0.02em;
     text-align: left;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header__nav-item--underline {
     text-decoration: none;
 }
 
@@ -393,12 +390,12 @@ svg {
     margin-bottom: 50px;
 }
 
-.our-work--box-photo {
+.our-work__box-photo {
     position: relative;
     overflow: hidden;
 }
 
-.our-work--overlay-box-photo {
+.our-work__overlay-box-photo {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -413,7 +410,7 @@ svg {
     text-align: center;
 }
 
-.our-work--overlay-box-photo__title {
+.our-work__overlay-box-photo-title {
     padding: 27px 0;
 }
 
@@ -550,7 +547,7 @@ svg {
     color: var(--white-color);
 }
 
-.footer--address-list {
+.footer__address-list {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
