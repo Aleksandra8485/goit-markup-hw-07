@@ -23,33 +23,48 @@
 
     <body>
         <header class="header">
-            <div class="container flex-nav">
-                <nav class="flex-nav-details">
+            <div class="container header__wrapper">
+                <nav class="header__nav">
                     <a class="logo" href="index.html"
-                        >Web<span class="black-studio">Studio</span></a
+                        >Web<span class="logo__black-studio">Studio</span></a
                     >
-                    <ul class="nav-list">
+                    <ul class="header__nav-list">
                         <li>
-                            <a class="menu-link" href="#">Agencja</a>
+                            <a
+                                class="header__nav-item header__nav-item--underline"
+                                href="#"
+                                >Agencja</a
+                            >
                         </li>
                         <li>
                             <a
-                                class="menu-link menu-link-active"
+                                class="header__nav-item header__nav-item--underline header__nav-item--active"
                                 href="portfolio.html"
                             >
                                 Portfolio</a
                             >
                         </li>
                         <li>
-                            <a class="menu-link" href="#">Kontakt</a>
+                            <a
+                                class="header__nav-item header__nav-item--underline"
+                                href="#"
+                                >Kontakt</a
+                            >
                         </li>
                     </ul>
                 </nav>
 
-                <ul class="contact-list">
+                <ul class="header__contact-list">
                     <li>
-                        <a href="info@devstudio.com">
-                            <svg width="16" height="12" class="contact-icon">
+                        <a
+                            class="header__contact-item"
+                            href="info@devstudio.com"
+                        >
+                            <svg
+                                width="16"
+                                height="12"
+                                class="header__contact-item--icon"
+                            >
                                 <use
                                     href="./images/icons.svg#icon-envelope"
                                 ></use>
@@ -58,8 +73,12 @@
                         >
                     </li>
                     <li>
-                        <a href="tel:+48111111111"
-                            ><svg width="10" height="16" class="contact-icon">
+                        <a class="header__contact-item" href="tel:+48111111111"
+                            ><svg
+                                width="10"
+                                height="16"
+                                class="header__contact-item--icon"
+                            >
                                 <use
                                     href="./images/icons.svg#icon-smartphone"
                                 ></use>
