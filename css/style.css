@@ -171,9 +171,9 @@ svg {
 
 /*--------HEADER END--------*/
 
-/*FIRST SECTION*/
+/*----HERO-SECTION----*/
 
-.first-section {
+.hero-section {
     text-align: center;
     background-color: var(--navy-blue);
     background-image: linear-gradient(
