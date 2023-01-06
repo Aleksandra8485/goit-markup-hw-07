@@ -535,6 +535,7 @@ svg {
 /*-----OUR-COSTUMERS  end----- */
 
 /*FOOTER*/
+/*--- ADDRESS in FOOTER start ---*/
 .footer {
     background-color: var(--navy-blue);
     padding: 60px 0;
@@ -548,6 +549,7 @@ svg {
 .logo__white-studio {
     color: var(--white-color);
 }
+
 .footer--address-list {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
@@ -591,12 +593,23 @@ svg {
     color: var(--primary-color);
 }
 
-.join-social-media {
+/*--- ADDRESS in FOOTER end ---*/
+
+/*---JOIN US in FOOTER  start----*/
+.join-us {
     margin-top: 12px;
     margin-left: 70px;
 }
 
-.join-us {
+.join-us--title {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.join-us__flex {
     list-style: none;
     display: inline-flex;
     justify-content: center;
@@ -604,7 +617,7 @@ svg {
     padding-top: 20px;
 }
 
-.footer-icons {
+.social-icons--footer-icons {
     fill: var(--white-color);
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
@@ -616,21 +629,15 @@ svg {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icons:hover,
-.footer-icons:focus {
+.social-icons--footer-icons:hover,
+.social-icons--footer-icons:focus {
     fill: var(--white-color);
     background-color: var(--primary-color);
 }
 
-.join-social-media h3,
-.footer-newsletter {
-    color: var(--white-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-}
+/*---- JOIN US in FOOTER end----*/
 
+/*---NEWSLETTER in FOOTER start ---*/
 .newsletter {
     margin-left: 78px;
 }
@@ -655,6 +662,14 @@ svg {
     letter-spacing: 0.03em;
     outline: transparent;
     color: var(--white-color);
+}
+
+.footer-newsletter {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .newsletter-composition {
@@ -682,6 +697,10 @@ svg {
 .newletter-icon {
     fill: var(--white-color);
 }
+
+/*----NEWSLETTER in FOOTER end ---*/
+
+/*---MODAL WINDOW   start ----*/
 
 .backdrop {
     position: fixed;
