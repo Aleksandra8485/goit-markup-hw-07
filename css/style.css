@@ -420,11 +420,11 @@ svg {
 /*---WHAT WE DO end 3 section  ---*/
 
 /*---OUR-TEAM start 4 section---*/
-.fourth-section {
+.our-team {
     background-color: var(--beige);
 }
 
-.fourth-section-list {
+.our-team__name {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -433,20 +433,40 @@ svg {
     margin-bottom: 50px;
 }
 
-.flex-fourth-section {
+.our-team__flex {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 30px;
 }
 
-.our-team {
+.our-team__card {
     background-color: var(--white-color);
     margin: 0;
     box-shadow: 0px 1px 3px rgba(0 0 0 / 12%), 0px 1px 1px rgba(0 0 0 / 14%),
         0px 2px 1px rgba(0 0 0 / 20%);
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
+}
+
+.our-team__photo-bg {
+    background-color: var(--white-color);
+    padding: 30px 0;
+    line-height: 1.85;
+    font-size: 16px;
+    text-align: center;
+}
+
+.our-team--worker-name {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--dark-grey);
+    letter-spacing: 0.03em;
+}
+
+.our-team--worker-job {
+    color: var(--light-grey);
+    text-align: center;
 }
 
 .social-media {
@@ -458,7 +478,7 @@ svg {
     margin-top: 16px;
 }
 
-.social-icon {
+.social-media__icon {
     fill: var(--icon-color);
     border-radius: 50%;
     padding: 12px;
@@ -468,8 +488,8 @@ svg {
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon:hover,
-.social-icon:focus {
+.social-media__icon:hover,
+.social-media__icon:focus {
     fill: var(--white-color);
     background-color: var(--primary-color);
 }
@@ -512,27 +532,7 @@ svg {
     border-color: var(--primary-color);
 }
 
-/*-----OUR-COSTUMERS   end */
-
-.photo-bg {
-    background-color: var(--white-color);
-    padding: 30px 0;
-    line-height: 1.85;
-    font-size: 16px;
-    text-align: center;
-}
-
-.name {
-    font-weight: 500;
-    font-size: 16px;
-    color: var(--dark-grey);
-    letter-spacing: 0.03em;
-}
-
-.workplace {
-    color: var(--light-grey);
-    text-align: center;
-}
+/*-----OUR-COSTUMERS  end----- */
 
 /*FOOTER*/
 .contact {
