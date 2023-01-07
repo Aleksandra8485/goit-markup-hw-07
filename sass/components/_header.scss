@@ -1,7 +1,7 @@
 .header {
-    background-color: var($white-color);
+    background-color: $white-color;
     padding: 24px 0 25px;
-    border-bottom: 1px solid var($border-color);
+    border-bottom: 1px solid $border-color;
 
     &__wrapper {
         display: flex;
@@ -20,10 +20,10 @@
     }
     &__nav-list a:hover,
     &__nav-list a:focus {
-        color: var($primary-color);
+        color: $primary-color;
     }
     &__nav-item {
-        color: var($dark-grey);
+        color: $dark-grey;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.17;
@@ -34,11 +34,11 @@
     }
 
     &__nav-item--active {
-        color: var($primary-color);
+        color: $primary-color;
     }
 
     &__nav-item--active::after {
-        background-color: var($primary-color);
+        background-color: $primary-color;
         content: '';
         display: flex;
         justify-content: center;
@@ -51,7 +51,7 @@
 
     &__nav-item:hover::after,
     &__nav-item:focus::after {
-        background-color: var($primary-color);
+        background-color: $primary-color;
         content: '';
         display: flex;
         justify-content: center;
@@ -75,14 +75,14 @@
     }
 
     &__contact-item {
-        color: var($light-grey);
+        color: $light-grey;
         text-decoration: none;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     &__contact-item:hover,
     &__contact-item:focus {
-        color: var($primary-color);
+        color: $primary-color;
     }
 
     &__contact-item--icon {

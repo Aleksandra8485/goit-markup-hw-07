@@ -6,13 +6,13 @@
     text-align: left;
     text-decoration: none;
     margin-right: 93px;
-    color: var($primary-color);
+    color: $primary-color;
 
     &__black-studio {
-        color: var($black-color);
+        color: $black-color;
     }
 
     &__white-studio {
-        color: var($white-color);
+        color: $white-color;
     }
 }
