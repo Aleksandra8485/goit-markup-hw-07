@@ -741,19 +741,6 @@ svg {
     cursor: pointer;
 }
 
-.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-    transition-property: opacity, visibility;
-    transition-duration: 250ms;
-    transition-timing-function: ease-out;
-}
-
-.is-hidden .modal {
-    transform: translateY(-100%);
-}
-
 .modal__name {
     font-weight: 700;
     font-size: 20px;
@@ -855,8 +842,8 @@ svg {
 }
 
 .modal__statute-form-checkbox:checked + .modal__statute-form-checkbox-icon {
-    background-color: #2196f3;
-    border-color: #2196f3;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
     opacity: 1;
 }
 
@@ -890,4 +877,17 @@ svg {
     margin-left: 124px;
     margin-top: 30px;
     padding: 0;
+}
+
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition-property: opacity, visibility;
+    transition-duration: 250ms;
+    transition-timing-function: ease-out;
+}
+
+.is-hidden .modal {
+    transform: translateY(-100%);
 }
