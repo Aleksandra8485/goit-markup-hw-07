@@ -158,7 +158,7 @@ svg {
     color: var(--primary-color);
 }
 
-.logo__black-studio {
+.logo--black-studio {
     color: var(--black-color);
 }
 
@@ -543,7 +543,7 @@ svg {
     justify-content: center;
 }
 
-.logo__white-studio {
+.logo--white-studio {
     color: var(--white-color);
 }
 
