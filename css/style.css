@@ -53,7 +53,7 @@ svg {
 .header {
     background-color: var(--white-color);
     padding: 24px 0 25px;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .header__wrapper {
