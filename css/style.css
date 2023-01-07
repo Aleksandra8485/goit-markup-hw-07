@@ -184,7 +184,7 @@ svg {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    color: #fff;
+    color: var(--white-color);
     letter-spacing: 0.06em;
     text-align: center;
     margin: 106px 252px 30px;
