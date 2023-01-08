@@ -2,19 +2,22 @@
     margin-top: 12px;
     margin-left: 70px;
 
-    &--title {
-        color: $white-color;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-    }
-
     &__flex {
         list-style: none;
         display: inline-flex;
         justify-content: center;
         gap: 10px;
         padding-top: 20px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+
+        &--color {
+            color: $white-color;
+        }
     }
 }
