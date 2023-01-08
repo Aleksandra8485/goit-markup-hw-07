@@ -454,7 +454,7 @@ svg {
     text-align: center;
 }
 
-.our-team--worker-name {
+.our-team__worker-name {
     font-weight: 500;
     font-size: 16px;
     color: var(--dark-grey);
