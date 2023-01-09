@@ -598,8 +598,11 @@ svg {
     margin-left: 70px;
 }
 
-.join-us--title {
+.join-us__title {
     color: var(--white-color);
+}
+
+.join-us__title--color {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
