@@ -47,6 +47,7 @@
         line-height: 1.17;
         letter-spacing: 0.03em;
         margin: 40px 40px 12px 40px;
+        text-align: center;
     }
 
     &__form {
@@ -124,7 +125,7 @@
 
     &__statute-form-checkbox {
         fill: $white-color;
-        border: 2px solid $black-color;
+        border: 1px solid $black-color;
         border-radius: 2px;
         width: 16px;
         height: 15px;
