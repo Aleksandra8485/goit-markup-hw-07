@@ -106,4 +106,28 @@
         gap: 24px;
         align-items: center;
     }
+
+    &__join-us {
+        margin-top: 12px;
+        margin-left: 70px;
+    }
+
+    &__join-us-flex {
+        list-style: none;
+        display: inline-flex;
+        justify-content: center;
+        gap: 10px;
+        padding-top: 20px;
+    }
+
+    &__join-us-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+
+        &--color {
+            color: white-color;
+        }
+    }
 }
