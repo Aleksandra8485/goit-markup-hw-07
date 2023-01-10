@@ -11,6 +11,7 @@
     &__nav {
         display: flex;
         align-items: center;
+        gap: 93px;
     }
     &__nav-list {
         display: flex;
@@ -85,7 +86,7 @@
         color: $primary-color;
     }
 
-    &__contact-item--icon {
+    &__icon {
         margin-right: 10px;
         fill: currentColor;
     }

@@ -6,13 +6,12 @@
     text-align: left;
     text-decoration: none;
     color: $primary-color;
-    margin-right: 93px;
 
-    &--black-studio {
+    &__studio {
         color: $black-color;
-    }
 
-    &--white-studio {
-        color: $white-color;
+        &--white {
+            color: $white-color;
+        }
     }
 }

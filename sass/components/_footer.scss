@@ -52,10 +52,6 @@
 
     &__newsletter {
         margin-left: 78px;
-
-        &--icon {
-            fill: $white-color;
-        }
     }
 
     &__newsletter-title {
@@ -105,6 +101,10 @@
         display: flex;
         gap: 24px;
         align-items: center;
+    }
+
+    &__icon {
+        fill: $white-color;
     }
 
     &__join-us {
